@@ -25,6 +25,17 @@ void printlist(node *head)
         curr = curr->next;
     }
 }
+node *delnod(node *head)
+{
+    if(head == NULL)
+    return NULL;
+    else
+    {
+        node *temp = head->next;
+        delete head;
+        return temp;
+    }
+}
 int main()
 {
     int x;
