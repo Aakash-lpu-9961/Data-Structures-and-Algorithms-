@@ -28,6 +28,8 @@ int main()
     head = new node(10);
     head->next = new node(20);
     head->next->next = new node(30);
+    
+    printlist(head);
 
     return 0;
 }
