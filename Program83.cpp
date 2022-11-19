@@ -27,8 +27,8 @@ void printlist(node *head)
 }
 node *delnod(node *head)
 {
-    if(head == NULL)
-    return NULL;
+    if (head == NULL)
+        return NULL;
     else
     {
         node *temp = head->next;
@@ -51,5 +51,9 @@ int main()
     cin >> x;
 
     head = insertBegin(head, x);
+    delnod(head);
     printlist(head);
+    
+    //printlist(head);
+    return 0;
 }
