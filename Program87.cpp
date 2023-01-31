@@ -69,6 +69,6 @@ int main()
     insertAtHead(head, 90);
     print(head);
     cout<<"\n"<<endl;
-    
+
     return 0;
 }

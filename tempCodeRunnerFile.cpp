@@ -1,2 +1,3 @@
-insertAtHead(head,5);
-    insertAtHead(head,7);
+insertAtTail(tail, 20);
+    print(tail);
+    cout<<"\n"<<endl;
