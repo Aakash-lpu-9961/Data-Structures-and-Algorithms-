@@ -1,3 +1,2 @@
-insertAtTail(tail, 20);
-    print(tail);
-    cout<<"\n"<<endl;
+insertAtMiddle(head, 2, 20);
+    // print(head);
